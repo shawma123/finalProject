@@ -1,0 +1,17 @@
+states->0,1;	#this tuple declares the state state
+
+alphabet->a,b,c;	#this tuple declares the alphabet
+
+transition->
+	{
+		initial=0, # inital state
+		value=a,   # the value
+		target=1   # target state
+	}:
+	{
+		initial=2,
+		value=c,
+		target=1
+	};                   #this tuple declares the transition function
+
+start_state->0;        #this tuple declares the start state
